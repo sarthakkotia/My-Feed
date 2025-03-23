@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myfeed/videos_list.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +33,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const VideosList(),
+      // home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
